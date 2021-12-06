@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="El Bitcoin (BTC) es un tipo de criptomoneda digital que opera sin una autoridad central, utilizada para transacciones peer-to-peer, minería y otros hitos tecnológicos.">
+    <meta name="keywords" charset="bitcoin, criptomonedas, moneda virtual, transacciones, gráficos, minería"> 
+    <meta name="author" content="Jorge Caballero"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/btc-logo.png">
+    <title>BitcoinFO - Home</title>
+</head>
+<body class="fondoBtc">
+<!-- Header -->
+<header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light headerNavbar">
+        <div class="container-fluid">
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4 text-uppercase">
+                <li class="nav-item">
+                    <a class="active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/origen.html">Origen</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/que-es.html">¿Qué es?</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/como-funciona.html">¿Cómo Funciona?</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/riesgos.html">Riesgos</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Main -->
+<main>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-start align-items-center tituloIndexMobile">
+                <img class="indexLogo tituloIndexAnim" src="img/btc-logo.png" alt="logo de bitcoin">
+                <h1 class="tituloIndexAnim">BITCOINFO</h1>
+            </div>
+            <div>
+                <!-- Este iframe cuenta con un problema de integración a nivel sintaxis-código -->
+                <div class="tradingview-widget-container iframeCripto iframeIndexAnim">
+                <div class="tradingview-widget-container__widget"></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
+                {
+                "symbol": "COINBASE:BTCUSD",
+                "width": "80%",
+                "locale": "es",
+                "colorTheme": "dark",
+                "isTransparent": true
+                }
+                </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 text-center mainBox boxIndexAnim main__box--mobile">
+                <!-- Este iframe cuenta con un problema de integración a nivel sintaxis-código -->
+                <div class="tradingview-widget-container iframeColor">
+                <div class="tradingview-widget-container__widget"></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                {
+                "symbol": "BITSTAMP:BTCUSD",
+                "width": "100%",
+                "height": "600",
+                "colorTheme": "dark",
+                "isTransparent": true,
+                "locale": "es"
+                }
+                </script>
+                </div>
+            </div>
+            <div class="col-md-2 offset"></div>
+            <div class="col-md-5 text-center mainBox boxIndexAnim main__box--mobile">
+                <!-- Este iframe cuenta con un problema de integración a nivel sintaxis-código -->
+                <div class="tradingview-widget-container iframeColor">
+                <div class="tradingview-widget-container__widget"></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+                {
+                "colorTheme": "dark",
+                "dateRange": "1D",
+                "showChart": true,
+                "locale": "es",
+                "width": "100%",
+                "height": "600",
+                "largeChartUrl": "",
+                "isTransparent": true,
+                "showSymbolLogo": false,
+                "showFloatingTooltip": true,
+                "plotLineColorGrowing": "rgba(19, 79, 92, 1)",
+                "plotLineColorFalling": "rgba(19, 79, 92, 1)",
+                "gridLineColor": "rgba(42, 46, 57, 0)",
+                "scaleFontColor": "rgba(255, 255, 255, 1)",
+                "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                "symbolActiveColor": "rgba(19, 79, 92, 0.12)",
+                "tabs": [
+                {
+                    "title": "Criptomonedas",
+                    "symbols": [
+                    {
+                    "s": "COINBASE:BTCUSD",
+                    "d": "BTC/USD"
+                    }
+                ],
+                    "originalTitle": "Criptomonedas"
+                }
+                ]
+                }
+                </script>
+                </div>
+            </div>
+        </div>
+    </div>
+<hr>
+</main>
+
+<!-- Footer -->
+<footer class="footerGradiente">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 text-uppercase">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Ir arriba</a></li>
+                </nav>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 d-flex flex-column justify-content-end fs-6">
+                <div class="text-end fst-italic">
+                    <p>@Copyright - Jorge Caballero 2021</p>
+                </div>
+                <div class="text-end text-uppercase"> 
+                    <a href="pages/formulario.html">Suscripción  </a>
+                    <a href="https://bitcoin.org/es/" target="_blank" >Bitcoin Oficial  </a>
+                    <a href="https://bitcoin.org/files/bitcoin-paper/bitcoin_es_latam.pdf" target="_blank" >White Paper</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

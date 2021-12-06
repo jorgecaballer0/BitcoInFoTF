@@ -1,0 +1,40 @@
+.headerNavbarAnim{
+    animation: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+.tituloIndexAnim{
+    animation: slideInLeft;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+.iframeIndexAnim{
+    animation: slideInLeft;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+.boxIndexAnim{
+    animation: fadeInUp;
+    animation-duration: 2s;
+    animation-delay: 0s; 
+}
+.boxTituloAnim{
+    animation: pulse;
+    animation-duration: 1s;
+    animation-delay:  1s;
+}
+.boxImgAnim{
+    animation: slideInLeft;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+.boxImgAnim2{
+    animation: slideInRight;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+.boxTextoAnim{
+    animation: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}

@@ -1,0 +1,49 @@
+.main404{
+    height: calc(100vh - 310px);
+}
+
+main{
+    div{
+        div{
+            button{
+                a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+}
+main{
+    div{
+        div{
+            button{
+                a:hover{
+                text-decoration: underline green;
+                color: white;
+                }
+            }
+        }
+    }
+} 
+
+footer{
+    div{
+        div{
+            div{
+                .lista404{
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}
+
+.error404{
+    font-size: 10rem;
+}

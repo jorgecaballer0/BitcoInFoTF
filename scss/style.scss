@@ -1,0 +1,77 @@
+@import "body";
+@import "header";
+@import "main";
+@import "footer";
+@import "tipografia";
+@import "animaciones";
+@import "formulario";
+@import "404";
+
+
+/* Media queries */
+
+@media only screen and (max-width: 575px) {
+    .indexlogo{
+        width: 25%;
+    }
+    .tituloIndexMobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .boxPositionText{
+        padding: 0 5%;
+    }
+    .boxPositionImg{
+        padding: 0 5%;
+    }
+    .main404{
+        margin: 0 5%;
+    }
+    .mainBox{
+        margin-top: 0;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .indexlogo{
+        width: 25%;
+    }
+    .tituloIndexMobile{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .tituloIndexMobile{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    header{
+        background-image: linear-gradient(to bottom,#174e49d2 ,#1d5032cb );
+    }
+    .boxTituloTexto{
+        margin-top: 10%;
+    }
+    .boxPositionText{
+        padding-top: 5%;
+        text-align: justify;
+    }
+    .boxPositionImg{
+        padding-top: 10%;
+    }
+    .form{
+        width: 80%;
+        margin: 10%;
+    }
+    .iframeCripto{
+        width: 100%;
+    }
+    footer > div > div> div > nav{
+        display: none;
+    }
+}

@@ -1,0 +1,43 @@
+$color-primario: white;
+$color-titulo: white;
+main {
+    color: $color-primario;
+}
+
+.iframeCripto {
+    width: 80%;
+    margin: 0% 10%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.iframeColor{
+    background-color: #1e222dde;
+}
+
+.indexLogo {
+    width: 10em;
+    height: 100%;
+}
+    
+.mainBox{
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.boxTituloTexto{
+    color: $color-titulo;
+    margin-top: 5%;
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+
+.boxPositionImg{
+    padding-top: 15%;
+
+}
+.boxPositionText{
+    padding-top: 5%;
+    text-align: justify;
+}

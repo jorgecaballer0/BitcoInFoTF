@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../img/btc-logo.png">  
+    <title>BitcoinFO - Formulario</title>
+</head>
+<body class="fondoBtc">  
+
+<!-- Header -->
+<header class="sticky-top headerNavbarAnim">
+    <nav class="navbar navbar-expand-lg navbar-light headerNavbar">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-start align-items-center">
+                <img class="headerNavbarLogo" src="../img/btc-logo.png" alt="logo de bitcoin"> 
+                <h1 class="headerTituloEfecto"><strong>BITCOINFO</strong></h1>
+            </div>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+                <li class="nav-item">
+                    <a class="active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="origen.html">Origen</a>
+                </li>
+                <li class="nav-item">
+                    <a href="que-es.html">¿Qué es?</a>
+                </li>
+                <li class="nav-item">
+                    <a href="como-funciona.html">¿Cómo Funciona?</a>
+                </li>
+                <li class="nav-item">
+                    <a href="riesgos.html">Riesgos</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+</header>
+
+<main style="height: 66vh;">
+<!-- Form -->
+<form class="form" action="">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center text-uppercase fw-bold"><strong>Formulario</strong></h1>
+        </div>
+        <div class="col-md-12">
+            <div class="mb-3">
+                <label for="nombre" class="form-label fs-5">Nombre y Apellido</label>
+                <input type="text" required class="form-control" id="nombre" placeholder="Escriba su nombre">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label fs-5">E-mail</label>
+                <input type="email" required class="form-control" id="email" placeholder="Ingrese su E-mail">
+            </div>
+            <label for="nombre" class="form-label fs-5">Género</label>
+            <select class="form-select" aria-label="genero">
+                <option selected hidden>Seleccione una opción</option>
+                <option value="1">Masculino</option>
+                <option value="2">Femenino</option>
+                <option value="3">Otro</option>
+            </select>
+            <br>    
+            <div class="form-check">
+                <label class="form-check-label" for="terminos">¿Desea recibir nuestro newsletter?</label>
+                <input class="form-check-input" required type="radio" name="terminos" id="terminos">
+            </div>
+            <br>
+            <input class="btn btn-light" type="submit" value="Enviar"> 
+            <input class="btn btn-light" type="reset" value="Resetear"> 
+        </div>
+    </div>
+</div>
+</form>
+<hr>
+</main>
+
+<!-- Footer -->
+<footer class="footerGradiente" >
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 text-uppercase fs-6">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Ir arriba</a></li>
+                </nav>
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Origen</li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 d-flex flex-column justify-content-end fs-6">
+                <div class="text-end fst-italic">
+                    <p>@Copyright - Jorge Caballero 2021</p>
+                </div>
+                <div class="text-end text-uppercase">
+                    <a href="https://bitcoin.org/es/" target="_blank" >Bitcoin Oficial  </a>
+                    <a href="https://bitcoin.org/files/bitcoin-paper/bitcoin_es_latam.pdf" target="_blank" >White Paper</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
+</body>
+</html>
