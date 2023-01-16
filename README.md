@@ -9,10 +9,10 @@
 
 
 ## Deploy del proyecto
-[https://jorgecaballer0.github.io/BitcoInFoTF/]
+https://jorgecaballer0.github.io/BitcoInFoTF/
 
 ## Tecnologías
 
--HTML
--CSS
--SCSS
+- HTML
+- CSS
+- SCSS
